@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Second html page</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="bulma.min.css"/>
+    </head>
+    <body>
+        
+        <h3>Example of a form.</h3>
+        <div class="container" >
+        <form>
+            <div class="field">
+                <label class="label">name</label>
+                <input 
+                    class="input"
+                    type="text"
+                    id="name"/>
+                <p id="name-error" class="help is-danger is-invisible">must enter valid name</p>
+                 
+            </div>
+            
+            <div class="field">
+                <label class="label">phone</label>
+                <input 
+                    class="input"
+                    type="number"
+                    id="phone"/>
+                    <p class="help is-danger is-invisible">must enter valid phone number</p>
+            </div>
+
+            <div class="field">
+                <label class="label">surname</label>
+                <input 
+                    id="surname"
+                    class="input"
+                    type="text"
+                />
+                <p id="surname-error" class="help is-danger is-invisible">must enter valid surname</p>
+            </div>
+
+            <div class="field">
+                <label class="label">age</label>
+                <input 
+                    class="input" 
+                    type="number"
+                    id="age"/>
+                    <p id="age-error" class="help is-danger is-invisible">must enter valid age</p>
+                    <p id="too-young" class="help is-danger is-invisible">too young</p>
+                    <p id="too-old" class="help is-danger is-invisible">too old</p>
+                    
+            </div>
+
+            <div class="field">
+                <label class="label">gender</label>
+                <input 
+                    class="input" 
+                    type="text"
+                    id="gender"/>
+                    <p class="help is-danger is-invisible">must enter valid gender</p>
+            </div>
+            
+            <div class="field">
+                <label class="label">address</label>
+                <input 
+                    class="input" 
+                    type="text"
+                    id="address"/>
+                    <p class="help is-danger is-invisible">must enter valid address</p>
+            </div>
+
+            <div class="field">
+                <input type="submit" 
+                       value="submit" 
+                       class="button is-primary"
+                       id="submit"
+                       />
+            </div>
+        </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
