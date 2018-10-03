@@ -14,6 +14,7 @@ window.onload = function(){
 }
 
 
+
 function hasToken(){
     //check if token exists in local storage
     var token = localStorage.getItem('token')
